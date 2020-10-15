@@ -17,16 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x7L-k0-39b">
-                                <rect key="frame" x="23" y="384" width="328" height="110"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x7L-k0-39b">
+                                <rect key="frame" x="30" y="257" width="329" height="44"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
-                            <constraint firstItem="x7L-k0-39b" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VuT-sK-Lmd"/>
-                            <constraint firstItem="x7L-k0-39b" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rSs-Ga-98I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x7L-k0-39b" secondAttribute="trailing" constant="16" id="DVO-8e-csk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="x7L-k0-39b" secondAttribute="bottom" constant="477" id="MxR-ug-Nd3"/>
+                            <constraint firstItem="x7L-k0-39b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Vyd-L8-N6M"/>
+                            <constraint firstItem="x7L-k0-39b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="213" id="Wew-26-n7d"/>
                         </constraints>
                     </view>
                 </viewController>
